@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Chat Rooms</title>
+</head>
+<body>
+<h1>Chat Rooms</h1>
+<ul id="chatrooms-list">
+
+</ul>
+
+<button onclick="showCreateChatroomForm()">Create Chatroom</button>
+<div id="create-chatroom-form" style="display: none;">
+	<input type="text" id="chatroom-name" placeholder="Chatroom Name">
+	<input type="number" id="max-members" placeholder="Max Members">
+	<button onclick="createChatroom()">Create</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
